@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Mochiy Pop P One', sans-serif;
+            background-color: black;
+        }
+
+        @keyframes salam {
+            0% {
+                transform: scale(.75);
+            }
+
+            100% {
+                transform: scale(1.25);
+            }
+        }
+
+        .salam {
+            margin: 100px auto;
+            color: rgb(199, 116, 116);
+            text-shadow: 5px 4px 15px rgb(223, 104, 104);
+            animation: salam 2s ease-in 0.5s infinite alternate;
+        }
+
+        .mid {
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="mid">
+        <h1 class="salam">Assalamualaikum Wa rahmatullahi Wa Barakatuhu</h1>
+    </div>
+    <div class="mid">
+        <svg viewBox="0 0 200 200" style="border: 1px solid red;" height="300px" width="300px">
+            <rect x="10" y="10" width="180" height="180"></rect>
+            <circle cx="100" cy="100" r="80" fill="yellow"></circle>
+            <circle cx="65" cy="80" r="18" fill="black"></circle>
+            <circle cx="130" cy="80" r="18" fill="black"></circle>
+            <path d="M65 125 A1, 0.8 0 0, 0 130 125" stroke="black"></path>
+        </svg>
+    </div>
+</body>
+
+</html>
